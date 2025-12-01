@@ -130,6 +130,40 @@ py setup.py
 - Python 3.10+
 - Required dependencies
 
+## ▶️ Installation
+
+1.Clone the repository
+
+```bash
+  git clone https://github.com/bilalshaikh-code/SecureLock.git
+  cd SecureLock
+```
+
+2.Install dependencies
+
+```bash
+  pip install -r requirements.txt
+```
+
+3.SecureLock & Watchdog
+
+```bash
+  pyinstaller --onefile --noconsole --icon=resources\securelock.ico securelock.py
+  pyinstaller --onefile --noconsole --icon=resources\securelock.ico watchdog_service.py
+```
+
+4.Both .exe
+
+```text
+ both .exe files to move the C:\Users\<your_user_name>\AppData\Roaming\SecureLock\
+```
+
+5.Run Setup file
+
+```bash
+py setup.py
+```
+
 ## Author
 
 - Bilal Shaikh
