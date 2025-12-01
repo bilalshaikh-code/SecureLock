@@ -130,7 +130,7 @@ py setup.py
 - Python 3.10+
 - Required dependencies
 
-## ▶️ Installation
+## Installation
 
 1.Clone the repository
 
